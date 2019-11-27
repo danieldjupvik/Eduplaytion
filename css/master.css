@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,700,800,900&display=swap&subset=latin-ext');
+
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: 'Muli', sans-serif;
+  color: white;
+}
+
+  main {
+  padding-top: 77.5px;
+}
+
+
+/* NOTE: Global Navigation */
+/* header */
+.header {
+  background-image: url("../assets/graphics/space-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  background-image: url("../assets/graphics/space-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  height: 100em;
+}
+
+.header li a {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-decoration: none;
+}
+
+.header .header_logo {
+  display: inline-block;
+  text-decoration: none;
+  width: 260px;
+
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  margin-top: 35px;
+  margin-right: 40px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 20px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 100%;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* Dropdown menu */
+.navbar_links {
+  font-size: 24px;
+  margin-left: 1.5em;
+  font-weight: bold;
+}
+
+.navbar_text {
+  color: inherit;
+}
+
+.header_button {
+  margin-left: 1.5em;
+  width: 100px;
+  padding: 18px 37px 20px;
+  background-color: yellow;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  color: black;
+  cursor: pointer;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* NOTE: Global navigation END */
+
+
+
+
+
+/* NOTE: Global Footer */
+.footer {
+  background-color: rgb(51, 51, 51);
+  height: 100%;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.footer_section--1 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+.footer_icons {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  color: black;
+}
+
+.footer_text {
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.footer_text_heading {
+  font-size: 16pt;
+  margin-bottom: 0.5em;
+}
+
+.footer_links {
+  text-decoration: none;
+}
+
+.footer_container--2 {
+  display: none;
+}
+
+/* NOTE: Global Footer END */
+
+
+/* NOTE: Homepage */
+.main_top {
+  text-align: center;
+}
+
+.main_background {
+  background-image: url("../assets/graphics/space-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_picture {
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+}
+
+
+
+
+/*<-------------------------------------------------------------------------------------------------------->/*
+
+
+768px
+/* NOTE: Dekstop Styles */
+@media (min-width: 1277px) {
+
+    main {
+    padding-top: 109.75px;
+  }
+
+  /* NOTE: Gobal Navigation */
+  .header li {
+    display: inline-block;
+  }
+  .header li a {
+    padding: 20px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+
+  .header_logo {
+    margin-top: 1em;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+  .navbar_links:hover {
+    border-bottom: 2px solid yellow;
+  }
+
+  .header ul {
+    height: auto;
+    background-image: none;
+  }
+
+  .header_homepage {
+    background-image: none;
+  }
+
+  .navbar_links {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .header {
+    padding-bottom: 1em;
+  }
+
+  #navbar_active {
+    border-bottom: 2px solid yellow;
+  }
+
+
+  /* NOTE: Global Navigation END */
+
+
+
+  /* NOTE: Global Footer START */
+   .footer_icons {
+    width: 50px;
+    height: 50px;
+  }
+
+   .footer, .footer_section--1 {
+    text-align: left;
+    padding-bottom: 1em;
+  }
+    .footer_container--1 {
+    display: inline-block;
+    margin-left: 2em;
+    max-width: 280px;
+    text-align: center;
+  }
+   .footer {
+    padding-bottom: 1.5em;
+  }
+
+  /* Footer Navbar */
+
+  .footer_container--2 {
+    display: block;
+    float: right;
+    margin-top: 3.5em;
+    margin-right: 3em;
+  }
+
+  .footer_menu {
+    list-style: none;
+  }
+
+  .footer_text_container--2 {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 20px 30px;
+
+  }
+
+  .footer_links_container--2 {
+    text-decoration: none;
+    display: inline-block;
+
+  }
+
+  .footer_text_container--2:hover {
+    border-bottom: 2px solid yellow;
+  }
+  /*
+   #footer_active {
+    border-bottom: 2px solid yellow;
+  } */
+
+  .footer_button {
+  margin-left: 1.5em;
+  width: 100px;
+  padding: 18px 37px 20px;
+  background-color: yellow;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  color: black;
+  cursor: pointer;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+
+
+
+  /* NOTE: Homepage */
+  .main_picture {
+    margin-top: 2em;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    width: 100%;
+    background-color: black;
+  }
+}

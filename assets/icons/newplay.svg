@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166.073" height="166.073" viewBox="0 0 166.073 166.073">
+  <g id="Group_10765" data-name="Group 10765" transform="translate(3616 -453.036)">
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="59.298" cy="59.298" r="59.298" transform="translate(-3592.262 595.371) rotate(-90)" fill="#ffdf00"/>
+    <path id="Path_7290" data-name="Path 7290" d="M3294.367,504.625l-33.432-19.3a3.706,3.706,0,0,0-5.559,3.21v38.6a3.706,3.706,0,0,0,5.559,3.21l33.432-19.3A3.706,3.706,0,0,0,3294.367,504.625Z" transform="translate(-6803.081 28.89)" fill="#040053"/>
+    <g id="Ellipse_5652" data-name="Ellipse 5652" transform="translate(-3604.131 607.24) rotate(-90)" fill="none" stroke="#ffdf00" stroke-width="2" opacity="0.75">
+      <circle cx="71.167" cy="71.167" r="71.167" stroke="none"/>
+      <circle cx="71.167" cy="71.167" r="70.167" fill="none"/>
+    </g>
+    <g id="Ellipse_5653" data-name="Ellipse 5653" transform="translate(-3616 619.109) rotate(-90)" fill="none" stroke="#ffdf00" stroke-width="1" opacity="0.404">
+      <circle cx="83.036" cy="83.036" r="83.036" stroke="none"/>
+      <circle cx="83.036" cy="83.036" r="82.536" fill="none"/>
+    </g>
+  </g>
+</svg>
