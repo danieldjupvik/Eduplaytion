@@ -1,0 +1,139 @@
+/* Styles for tablet */
+
+@media screen and  (min-width: 768px) and (max-width: 1275px) {
+
+  /* Gobal Navigation */
+  .header {
+    padding-bottom: 21px;
+  }
+  .header_logo {
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .navbar_links {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 8px 0px;
+  }
+
+  .navbar_text {
+    font-size: 17px;
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .header .navbar_links .navbar_text {
+    padding: 10px 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    text-decoration: none;
+  }
+
+  .header_button {
+    display: none;
+  }
+  /* Gobal Navigation END */
+
+
+  /* Global Footer */
+  .footer_container--1 {
+    max-width: 280px;
+    margin-left: 0em;
+  }
+
+  .footer_icons {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer_text_container--2 {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px 5px;
+  }
+  
+  .footer_container--2 {
+    display: block;
+    min-width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Global Footer END */
+
+
+  /* Numetry, Crew, About, Contact, Article common width style */
+  .numetry_section--1, .crew_container--2, .about_container--1, .contact_container--1, .article-1_container   {
+    width: 80%;
+  }
+  /* END */
+
+
+
+  /* Homepage */
+  .main_background_desktop {
+    background-image: url("../assets/graphics/space-background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+  /* Homepage END */
+
+  /* Numetry */
+  .numetry_img--1 {
+    margin-top: 0em;
+    padding-left: 2em;
+    float: none;
+  }
+  .numetry_img--2 {
+    margin-top: 0em;
+    padding-right: 2em;
+    float: none;
+  }
+  .numetry_img--3 {
+    margin-top: 0em;
+    padding-left: 2em;
+    float: none;
+  }
+
+  .numetry_container--1 p {
+    margin: 1.5em
+  }
+  /* Numetry END */
+
+  /* Article */
+  .article-1_section {
+    width: 90%;
+  }
+  /* Article END */
+
+  /* About */
+  .about_img--1 {
+    margin-top: 0em;
+    padding: 0em;
+    float: none;
+  }
+  .about_img--2 {
+    margin-top: 0em;
+    padding: 0em;
+    float: none;
+  }
+
+  /* Contact */
+  .contact_header_2 {
+    margin-bottom: 2em;
+  }
+
+  .contact_section {
+    width: 170px;
+  }
+  /* Contact END */
+
+  
+
+}
