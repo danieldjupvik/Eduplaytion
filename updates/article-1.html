@@ -1,67 +1,200 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Numetry</title>
+<head>
+  <meta charset="utf-8">
+  <title>Article</title>
 
-    <meta name="description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./css/master.css" />
-  </head>
-  <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../css/master.css" />
+  <link rel="stylesheet" type="text/css" href="../css/desktop-style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/tablet-style.css" />
+  <meta name="description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
+
+
+  <!--  Essential META Tags -->
+  <meta property="og:title" content="Eduplaytion" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
+  <meta property="og:image" content="http://eduplaytion.djupvik.co/assets/graphics/principal.png" />
+  <meta property="og:url" content="http://eduplaytion.djupvik.co/index.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <!--  Non-Essential, For Accessibility  -->
+  <meta property="og:site_name" content="Eduplaytion" />
+  <meta name="twitter:image:alt" content="Picture of game" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../assets/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
   <header class="header">
-    <a href="index.html">
-      <img class="header_logo" src="./assets/logos/whitelogo.svg" alt="Eduplaytion Logo">
+    <a href="../index.html">
+      <img class="header_logo" src="../assets/logos/whitelogo.svg" alt="Eduplaytion Logo">
     </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn">
-      <span class="navicon"></span>
-    </label>
     <ul class="menu">
       <li class="navbar_links navbar_links--link1">
-        <a class="navbar_text navbar_text--text1" href="index.html">Home</a>
+        <a class="navbar_text navbar_text--text1" href="../index.html">Home </a>
       </li>
       <li class="navbar_links navbar_links--link2">
-        <a class="navbar_text navbar_text--text2" href="numetry.html">Numetry</a>
+        <a class="navbar_text navbar_text--text2" href="../numetry.html">Numetry </a>
       </li>
-      <li class="navbar_links navbar_links--link3">
-        <a class="navbar_text navbar_text--text3" href="updates.html">Updates</a>
+      <li class="navbar_links navbar_links--link3" id="navbar_active_dekstop">
+        <a class="navbar_text navbar_text--text3" id="navbar_active" href="../updates.html">Updates</a>
       </li>
+    </ul>
+    <ul class="navbar_section--1">
       <li class="navbar_links navbar_links--link4">
-        <a class="navbar_text navbar_text--text4" href="about_us.html">About us</a>
+        <a class="navbar_text navbar_text--text4" href="../crew.html">Our Crew</a>
       </li>
       <li class="navbar_links navbar_links--link5">
-        <a class="navbar_text navbar_text--text5" href="contact_us.html">Contact us</a>
+        <a class="navbar_text navbar_text--text5" href="../about_us.html">About</a>
+      </li>
+      <li class="navbar_links navbar_links--link6">
+        <a class="navbar_text navbar_text--text6" href="../contact_us.html">Contact</a>
+      </li>
+      <li>
+        <a class="header_button" href="https://numetry.dev/">Try Demo</a>
+      </li>
+    </ul>
+
+      <!--  Menu on desktop -->
+    <ul class="menu desktop_menu">
+      <li class="navbar_links navbar_links--link1">
+        <a class="navbar_text navbar_text--text1" href="../index.html">Home </a>
+      </li>
+      <li class="navbar_links navbar_links--link2">
+        <a class="navbar_text navbar_text--text2" href="../numetry.html">Numetry </a>
+      </li>
+      <li class="navbar_links navbar_links--link3" id="desktop_navbar_active_dekstop">
+        <a class="navbar_text navbar_text--text3" id="desktop_navbar_active" href="updates.html">Updates</a>
+      </li>
+      <li class="navbar_links navbar_links--link4">
+        <a class="navbar_text navbar_text--text4" href="../crew.html">Our Crew</a>
+      </li>
+      <li class="navbar_links navbar_links--link5">
+        <a class="navbar_text navbar_text--text5" href="../about_us.html">About</a>
+      </li>
+      <li class="navbar_links navbar_links--link6">
+        <a class="navbar_text navbar_text--text6" href="../contact_us.html">Contact</a>
       </li>
       <li>
         <a class="header_button" href="https://numetry.dev/">Try Demo</a>
       </li>
     </ul>
   </header>
-
-  <main>
-
+  <main class="main">
+    <div>
+      <article class="article-1_container" id="updates_container">
+        <img class="article_img article_img--2" src="../assets/graphics/article-1.jpg" alt="Picture of the game" />
+        <div class="article-1_section">
+          <h2>You can now become a co-owner of Eduplaytion</h2>
+          <a class="go_back_link" href="../updates.html#container">
+            <span class="go_back">Go back</span>
+          </a>
+          <div class="meta_container">
+            <span class="meta">Date: 13/11/2019 </span>
+            <span class="meta">Author: Kristoffer</span>
+          </div>
+          <h3>Summary</h3>
+          <p>Mathematics game "Numetry" now goes into the final refinement before commercial launch in May 2020. To position
+            ourselves for growth, we now invite to issue in Eduplaytion AS Eduplaytion AS decided in an extraordinary general
+            meeting on November 13, 2019 to issue shares in the interval 2.8
+          </p>
+          <h3>Intro</h3>
+          <p>The mathematics game "Numetry" now goes into the final refinement before commercial launch in May 2020. To position
+          ourselves for growth, we now invite you to issue in Eduplaytion AS
+          </p>
+          <h3>Content</h3>
+          <p>Eduplaytion AS decided in an extraordinary general meeting on November 13, 2019 to issue shares in the range of MNOK 2.8
+          - MNOK 4.79.
+          </p>
+          <p>On the occasion of the rights issue, we have applied for, and been granted, both Innovation Contract in collaboration
+          with Innovation Norway and SkatteFUNN via the Norwegian Research Council. In combination, these schemes will provide the
+          company with an estimated MNOK 4 in addition to the private capital that will be added to the company in private
+          placement. The company's shareholders have so far signaled strong interest in the share issue and have pre-emptive
+          rights if it is subscribed.
+          </p>
+          <p>The company is priced at MNOK 15 before cash. Up to 109,000 new shares with a nominal value of NOK 0.1 will be issued
+          and a premium of NOK 43.92. NOK 44.02 per share will be paid. About NOK 400,000 of the company's debt is related to
+          conversion rights that the creditors have chosen to use, at the same rate.
+          </p>
+          <p>Investments over NOK 30,000 will qualify for a tax deduction under the KapitalFUNN scheme. Investors who wish to use the
+          scheme are asked to disclose this to the company separately. Read more here:
+          <a href="https://www.skatteetaten.no/person/skatt/hjelp-til-riktig-skatt/aksjer-og-verdipapirer/om/skatteinsentivordningen/">Skatteetaten.no</a>
+          </p>
+          <p>The subscription period is from November 13, 2019 to January 12, 2020. All new investors must join the company's
+          shareholder agreement. The current agreement follows below and will be updated to reflect new share capital and new
+          shareholders. Payment deadline is February 12, 2020. All questions and meeting requests are most welcome to
+          <a href="mailto:kristoffer@eduplaytion.no">kristoffer@eduplaytion.no</a> .
+          </p>
+          <h4>We have made a short presentation in the video below:</h4>
+          <iframe class="article-1_youtube" width="860" height="484" src="https://www.youtube.com/embed/B6wqyH0JR5E"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+      </article>
+    </div>
   </main>
-
   <footer>
     <div class="footer">
-      <h1 class="footer_text_heading">Socials</h1>
-      <section class="footer_section--1">
-      <a class="footer_links" href="https://www.facebook.com/pages/category/Education-Website/Eduplaytionno-253416978786370/">
-        <img class="footer_icons footer_facebook" src="./assets/icons/facebook2.svg" alt="Facebook icon">
-      </a>
-      <a class="footer_links" href="https://www.instagram.com/numetrygame/">
-        <img class="footer_icons footer_instagram" src="./assets/icons/instagram2.svg" alt="Instagram icon">
-      </a>
-      <a class="footer_links" href="https://twitter.com/EduplaytionNO">
-        <img class="footer_icons footer_twitter" src="./assets/icons/tweeter2.svg" alt="Twitter icon">
-      </a>
-      <a class="footer_links" href="https://www.youtube.com/channel/UCbpgYkNPwB7ahorO3VcYMHg">
-        <img class="footer_icons footer_youtube" src="./assets/icons/youtube2.svg" alt="Youtube icon">
-      </a>
-      </section>
-      <span class="footer_text">&copy; Eduplaytion. 2019. All Rights reserved</span>
+      <div class="footer_container footer_container--1">
+        <h1 class="footer_text_heading">Socials</h1>
+        <div class="footer_section--1">
+          <ul class="menu_container--1">
+            <li class="footer_li_container--1">
+              <a class="footer_links"
+                href="https://www.facebook.com/pages/category/Education-Website/Eduplaytionno-253416978786370/">
+                <img class="footer_icons footer_facebook" src="../assets/icons/facebook2.svg" alt="Facebook icon" />
+              </a>
+            </li>
+            <li class="footer_li_container--1">
+              <a class="footer_links" href="https://www.instagram.com/numetrygame/">
+                <img class="footer_icons footer_instagram" src="../assets/icons/instagram2.svg" alt="Instagram icon" />
+              </a>
+            </li>
+            <li class="footer_li_container--1">
+              <a class="footer_links" href="https://twitter.com/EduplaytionNO">
+                <img class="footer_icons footer_twitter" src="../assets/icons/tweeter2.svg" alt="Twitter icon" />
+              </a>
+            </li>
+            <li class="footer_li_container--1">
+              <a class="footer_links" href="https://www.youtube.com/channel/UCbpgYkNPwB7ahorO3VcYMHg">
+                <img class="footer_icons footer_youtube" src="../assets/icons/youtube2.svg" alt="Youtube icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <span class="footer_text">&copy; Eduplaytion. 2019. All Rights reserved</span>
+      </div>
+      <div class="footer_container footer_container--2">
+        <ul class="footer_menu">
+          <li class="footer_links_container--2 footer_links--link1">
+            <a class="footer_text_container--2 footer_text--text1" href="../index.html">Home</a>
+          </li>
+          <li class="footer_links_container--2 footer_links--link2">
+            <a class="footer_text_container--2 footer_text--text2" href="../numetry.html">Numetry</a>
+          </li>
+          <li class="footer_links_container--2 footer_links--link3" id="footer_active_desktop">
+            <a class="footer_text_container--2 footer_text--text3" id="footer_active" href="../updates.html">Updates</a>
+          </li>
+          <li class="footer_links_container--2 footer_links--link4">
+            <a class="footer_text_container--2 footer_text--text4" href="../crew.html">Our Crew</a>
+          </li>
+          <li class="footer_links_container--2 footer_links--link5">
+            <a class="footer_text_container--2 footer_text--text5" href="../about_us.html">About us</a>
+          </li>
+          <li class="footer_links_container--2 footer_links--link6">
+            <a class="footer_text_container--2 footer_text--text6" href="../contact_us.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
-  </body>
+</body>
 </html>
