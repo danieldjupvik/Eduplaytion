@@ -1,198 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Numetry</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Numetry</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./css/master.css" />
-  <link rel="stylesheet" type="text/css" href="./css/desktop-style.css" />
-  <link rel="stylesheet" type="text/css" href="./css/tablet-style.css" />
-  <meta name="description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
-
-  
-  <!--  Essential META Tags -->
-  <meta property="og:title" content="Eduplaytion" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
-  <meta property="og:image" content="http://eduplaytion.djupvik.co/assets/graphics/principal.png" />
-  <meta property="og:url" content="http://eduplaytion.djupvik.co/index.html" />
-  <meta name="twitter:card" content="summary_large_image" />
-  
-  <!--  Non-Essential, For Accessibility  -->
-  <meta property="og:site_name" content="Eduplaytion" />
-  <meta name="twitter:image:alt" content="Picture of game" />
-  
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-  <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
-</head>
-<body>
-  <header class="header header_homepage">
+    <meta name="description" content="Games turn students into active participants in the learning process, they provide the opportunity to influence and control their surroundings, and allow for deep learning in a way that both makes and motivates." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./css/master.css" />
+  </head>
+  <body>
+  <header class="header">
     <a href="index.html">
-      <img class="header_logo" src="./assets/logos/whitelogo.svg" alt="Eduplaytion Logo" />
+      <img class="header_logo" src="./assets/logos/whitelogo.svg" alt="Eduplaytion Logo">
     </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
     <ul class="menu">
       <li class="navbar_links navbar_links--link1">
-        <a class="navbar_text navbar_text--text1" href="index.html">Home </a>
+        <a class="navbar_text navbar_text--text1" href="index.html">Home</a>
       </li>
-      <li class="navbar_links navbar_links--link2" id="navbar_active_dekstop">
-        <a class="navbar_text navbar_text--text2" id="navbar_active" href="numetry.html">Numetry </a>
-      </li>
-      <li class="navbar_links navbar_links--link3">
-        <a class="navbar_text navbar_text--text3" href="updates.html">Updates</a>
-      </li>
-    </ul>
-    <ul class="navbar_section--1">
-      <li class="navbar_links navbar_links--link4">
-        <a class="navbar_text navbar_text--text4" href="crew.html">Our Crew</a>
-      </li>
-      <li class="navbar_links navbar_links--link5">
-        <a class="navbar_text navbar_text--text5" href="about_us.html">About</a>
-      </li>
-      <li class="navbar_links navbar_links--link6">
-        <a class="navbar_text navbar_text--text6" href="contact_us.html">Contact</a>
-      </li>
-      <li>
-        <a class="header_button" href="https://numetry.dev/">Try Demo</a>
-      </li>
-    </ul>
-
-      <!--  Menu on desktop -->
-    <ul class="menu desktop_menu">
-      <li class="navbar_links navbar_links--link1">
-        <a class="navbar_text navbar_text--text1" href="index.html">Home </a>
-      </li>
-      <li class="navbar_links navbar_links--link2" id="desktop_navbar_active_dekstop">
-        <a class="navbar_text navbar_text--text2" id="desktop_navbar_active" href="numetry.html">Numetry </a>
+      <li class="navbar_links navbar_links--link2">
+        <a class="navbar_text navbar_text--text2" id="active" href="numetry.html">Numetry</a>
       </li>
       <li class="navbar_links navbar_links--link3">
         <a class="navbar_text navbar_text--text3" href="updates.html">Updates</a>
       </li>
       <li class="navbar_links navbar_links--link4">
-        <a class="navbar_text navbar_text--text4" href="crew.html">Our Crew</a>
+        <a class="navbar_text navbar_text--text4" href="about_us.html">About us</a>
       </li>
       <li class="navbar_links navbar_links--link5">
-        <a class="navbar_text navbar_text--text5" href="about_us.html">About</a>
-      </li>
-      <li class="navbar_links navbar_links--link6">
-        <a class="navbar_text navbar_text--text6" href="contact_us.html">Contact</a>
+        <a class="navbar_text navbar_text--text5" href="contact_us.html">Contact us</a>
       </li>
       <li>
         <a class="header_button" href="https://numetry.dev/">Try Demo</a>
       </li>
     </ul>
   </header>
-  <main class="main_background_desktop main_background_mobile">
-    <div class="main_top">
-    <img class="main_img main_img--4" src="./assets/graphics/numetry-g.png" alt="Logo of numetry" />
-    </div>
-    <a href="#bottom">
-      <img class="to-bottom" src="./assets/icons/to-bottom.svg" alt="Go to bottom icon" />
-    </a>
-    <div class="numetry_container numetry_container--1">
-      <div class="numetry_section numetry_section--1">
-        <h1>Play it. Learn it</h1>
-        <p>How can a child play computer games continuously for hours but still have trouble sitting still for five minutes on the
-        school bench? Eduplaytion wants to further develop what makes children and young people become engrossed in video games,
-        by combining play and games with learning and development.
-        </p>
-        <div class="numetry_text_container numetry_text_container--1">
-        <img class="numetry_img numetry_img--1" src="./assets/graphics/Group-10610.png" alt="Picture of element in the game" />
-        <p>Our vision is to develop short small games that present challenges and focus on problem solving and fun rather than
-        learning. The learning process is a game in itself, and students must quickly understand, memorize, and test abstract
-        rules that have logical consequences. The games are shaped on the basis of game design principles, which makes it as fun
-        to learn math, English and science as playing any video game.
-        </p>
-        </div>
-        <div class="numetry_text_container numetry_text_container--2">
-        <img class="numetry_img numetry_img--2" src="./assets/graphics/grupo3.png" alt="Picture of element in the game" />
-        <p>The learning process is the game in itself, and the player must quickly understand, memorize and test abstract rules
-        that have logical consequences.
-        </p>
-        <p>The challenges that must be solved in the game are presented in full by characters. The task itself creates major and
-        visible changes in the game world. The players should not think about learning - just that they have fun! The goal is to
-        capture the attention of the students by telling an engaging story with interactive characters in the lead roles.
-        </p>
-        </div>
-        <div class="numetry_text_container numetry_text_container--3"> 
-        <img class="numetry_img numetry_img--3" src="./assets/graphics/grupo4.png" alt="Picture of element in the game" />
-        <p>The game transforms students into active participants in the learning process, gives them the opportunity to influence
-        and control their surroundings, and allows for deep learning in a way that is both harmless and motivating. The gaming
-        experience further contributes to attaching a meaningful context to the problems that make it far easier to understand
-        than traditional classroom teaching.
-        </p>
-        </div>
-      </div>
-      <div class="videoplayer_container" id="bottom">
-        <h1>Numetry Video</h1>
-        <iframe class="videoplayer" title="vimeo-player" src="https://player.vimeo.com/video/373782160" width="640"
-          height="360" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <a href="#top">
-        <img class="to-top" src="./assets/icons/to-bottom.svg" alt="Go to top icon" />
-      </a>
-    </div>
+
+  <main class="main">
+
   </main>
+
   <footer>
     <div class="footer">
-      <div class="footer_container footer_container--1">
-        <h1 class="footer_text_heading">Socials</h1>
-        <div class="footer_section--1">
-          <ul class="menu_container--1">
-            <li class="footer_li_container--1">
-              <a class="footer_links"
-                href="https://www.facebook.com/pages/category/Education-Website/Eduplaytionno-253416978786370/">
-                <img class="footer_icons footer_facebook" src="./assets/icons/facebook2.svg" alt="Facebook icon" />
-              </a>
-            </li>
-            <li class="footer_li_container--1">
-              <a class="footer_links" href="https://www.instagram.com/numetrygame/">
-                <img class="footer_icons footer_instagram" src="./assets/icons/instagram2.svg" alt="Instagram icon" />
-              </a>
-            </li>
-            <li class="footer_li_container--1">
-              <a class="footer_links" href="https://twitter.com/EduplaytionNO">
-                <img class="footer_icons footer_twitter" src="./assets/icons/tweeter2.svg" alt="Twitter icon" />
-              </a>
-            </li>
-            <li class="footer_li_container--1">
-              <a class="footer_links" href="https://www.youtube.com/channel/UCbpgYkNPwB7ahorO3VcYMHg">
-                <img class="footer_icons footer_youtube" src="./assets/icons/youtube2.svg" alt="Youtube icon" />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <span class="footer_text">&copy; Eduplaytion. 2019. All Rights reserved</span>
-      </div>
-      <div class="footer_container footer_container--2">
-        <ul class="footer_menu">
-          <li class="footer_links_container--2 footer_links--link1">
-            <a class="footer_text_container--2 footer_text--text1" href="index.html">Home</a>
-          </li>
-          <li class="footer_links_container--2 footer_links--link2" id="footer_active_desktop">
-            <a class="footer_text_container--2 footer_text--text2" id="footer_active" href="numetry.html">Numetry</a>
-          </li>
-          <li class="footer_links_container--2 footer_links--link3">
-            <a class="footer_text_container--2 footer_text--text3" href="updates.html">Updates</a>
-          </li>
-          <li class="footer_links_container--2 footer_links--link4">
-            <a class="footer_text_container--2 footer_text--text4" href="crew.html">Our Crew</a>
-          </li>
-          <li class="footer_links_container--2 footer_links--link5">
-            <a class="footer_text_container--2 footer_text--text5" href="about_us.html">About us</a>
-          </li>
-          <li class="footer_links_container--2 footer_links--link6">
-            <a class="footer_text_container--2 footer_text--text6" href="contact_us.html">Contact us</a>
-          </li>
-        </ul>
-      </div>
+      <h1 class="footer_text_heading">Socials</h1>
+      <section class="footer_section--1">
+      <a class="footer_links" href="https://www.facebook.com/pages/category/Education-Website/Eduplaytionno-253416978786370/">
+        <img class="footer_icons footer_facebook" src="./assets/icons/facebook2.svg" alt="Facebook icon">
+      </a>
+      <a class="footer_links" href="https://www.instagram.com/numetrygame/">
+        <img class="footer_icons footer_instagram" src="./assets/icons/instagram2.svg" alt="Instagram icon">
+      </a>
+      <a class="footer_links" href="https://twitter.com/EduplaytionNO">
+        <img class="footer_icons footer_twitter" src="./assets/icons/tweeter2.svg" alt="Twitter icon">
+      </a>
+      <a class="footer_links" href="https://www.youtube.com/channel/UCbpgYkNPwB7ahorO3VcYMHg">
+        <img class="footer_icons footer_youtube" src="./assets/icons/youtube2.svg" alt="Youtube icon">
+      </a>
+      </section>
+      <span class="footer_text">&copy; Eduplaytion. 2019. All Rights reserved</span>
     </div>
   </footer>
-</body>
+  </body>
 </html>
