@@ -19,7 +19,7 @@ p {
 
 /* Move down main picture on homepage and numetry page */
 .main_background_desktop {
-  padding-top: 201.75px;
+  padding-top: 200px;
 }
 
 
@@ -45,6 +45,7 @@ p {
   padding: 0;
   list-style: none;
   padding-bottom: 0em;
+  margin-left: 0.5em;
 }
 
 .menu {
@@ -181,16 +182,16 @@ p {
   width: 310px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .play_button {
   width: 150px;
-  padding: 18px 37px 20px;
+  padding: 12px 20px 12px;
   outline: none;
   color: black;
   cursor: pointer;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 800;
   text-align: center;
   text-decoration: none;
@@ -234,33 +235,13 @@ p {
   display: none;
 }
 
-.homepage_img--1 {
-  width: 300px;
+.homepage_img {
+  width: 80%;
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
-.homepage_img--2 {
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.homepage_img--3 {
-  width: 300px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.homepage_img--4 {
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 .learn_button-container {
   padding-top: 4em;
   padding-bottom: 5em;
@@ -301,22 +282,8 @@ p {
 
 
 /* Numetry */ 
-.numetry_img--1 {
-  width: 300px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-}
-
-.numetry_img--2 {
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.numetry_img--3 {
-  width: 250px;
+.numetry_img {
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -342,6 +309,7 @@ p {
   margin: 1.5em;
   font-size: 15pt;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .videoplayer_container {
@@ -652,19 +620,13 @@ p {
   transform: rotate(180deg);
 }
 
-.about_img--1 {
-  width: 300px;
+.about_img {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.about_img--2 {
-  width: 300px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .about_container--1 h1 {
   margin-top: 1em;
@@ -680,6 +642,7 @@ p {
   margin: 1.5em;
   font-size: 15pt;
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 /* About END */
 

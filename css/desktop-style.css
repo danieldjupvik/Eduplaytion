@@ -1,6 +1,7 @@
 /* Dekstop Styles */
 
 @media screen and  (min-width: 768px) {
+
   /* Move down main picture on homepage and numetry page */
     .main_background_desktop {
     padding-top: 128px;
@@ -189,6 +190,27 @@
     width: 650px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.5em;
+  }
+
+  .play_button {
+    width: 150px;
+    padding: 18px 37px 18px; 
+    outline: none;
+    color: black;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    background-color: yellow;
+    border: none;
+    border-radius: 100px;
+    display: block;
   }
 
   .homepage_section {
@@ -273,6 +295,7 @@
   }
 
   .numetry_img--1 {
+    width: 300px;
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: 1em;
@@ -280,6 +303,7 @@
     float: left;
   }
   .numetry_img--2 {
+    width: 250px;
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: 5em;
@@ -287,6 +311,7 @@
     float: right;
   }
   .numetry_img--3 {
+    width: 250px;
     padding-top: 2em;
     padding-bottom: 2em;
     margin-top: -1em;
@@ -460,6 +485,7 @@
   }
 
   .about_img--1 {
+    width: 300px;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-top: -1.5em;
@@ -467,6 +493,7 @@
     float: left;
   }
   .about_img--2 {
+    width: 300px;
     padding-top: 1em;
     padding-bottom: 1em;
     margin-top: 12px;
