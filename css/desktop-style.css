@@ -243,9 +243,6 @@
     margin-bottom: 4em;
   }
 
-  .homepage_desktop_img--2 {
-  }
-
   .homepage_desktop_img--3 {
     margin-bottom: 4.5em;
   }
@@ -264,6 +261,10 @@
   .homepage_container--1 h1 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .homepage_dekstop_paragraph {
+    padding-top: 2em;
   }
   /* Homepage END */
 
@@ -574,7 +575,6 @@
   margin-left: 0;
   float: right;
   }
-
 
   .maps_container {
     width: 100%;
