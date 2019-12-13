@@ -217,6 +217,8 @@
     display: inline-block;
     width: 300px;
     vertical-align: top;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .homepage_container--1 {
@@ -233,10 +235,15 @@
 
   .homepage_desktop_img {
     display: block;
+    margin-left: auto;  
+    margin-right: auto;
   }
 
   .homepage_desktop_img--1 {
     margin-bottom: 4em;
+  }
+
+  .homepage_desktop_img--2 {
   }
 
   .homepage_desktop_img--3 {
@@ -253,6 +260,11 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .homepage_container--1 h1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
   /* Homepage END */
 
   /* Numetry */
@@ -268,10 +280,6 @@
     margin-right: auto;
   }
 
-  .main_img--4 {
-    width: 400px;
-  }
-
   .videoplayer_container {
     box-shadow: 0px 0px 30px 0px black;
     background-color: rgb(51, 51, 51);
@@ -280,6 +288,10 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10em;
+    padding-bottom: 8em;
+    padding-left: 5em;
+    padding-right: 5em;
   }
 
   .videoplayer_container h1 {
@@ -291,7 +303,6 @@
   
   .videoplayer {
     padding-top: 2em;
-    padding-bottom: 4em;
   }
 
   .numetry_img--1 {
@@ -304,7 +315,7 @@
   }
   .numetry_img--2 {
     width: 250px;
-    padding-top: 2em;
+    padding-top: 4em;
     padding-bottom: 2em;
     margin-top: 5em;
     padding-left: 2em;
@@ -312,7 +323,7 @@
   }
   .numetry_img--3 {
     width: 250px;
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
     margin-top: -1em;
     padding-right: 2em;
@@ -329,7 +340,7 @@
 
   /* Updates */
   .updates_heading {
-    margin-top: 2.5em;
+    margin-top: 2em;
     margin-bottom: 2em;
   }
 
@@ -578,7 +589,7 @@
   }
 
   .contact_field {
-    width: 70%;
+    width: 80%;
     padding: 0;
     margin-left: 0;
     margin-right: 0;
